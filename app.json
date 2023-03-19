@@ -1,0 +1,18 @@
+{
+  "name": "BOT-MAKANAKY-GAAA",
+  "description": "Subscribete",
+  "repository": "https://github.com/SmithOxenford/BOT-MAKANAKY-GAAA",
+  "logo": "https://raw.githubusercontent.com/SmithOxenford/BOT-MAKANAKY-GAAA/master/Menu2.jpg",
+  "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
+  "buildpacks": [
+  {
+    "url": "heroku/nodejs"
+  },
+  {
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },
+  {
+    "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
+  }    
+ ]
+}
